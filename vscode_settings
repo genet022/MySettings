@@ -1,0 +1,31 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.codeLens": true,
+    "editor.folding": false,
+    "editor.fontFamily": "'Consolas', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 14,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [80],
+    "editor.scrollBeyondLastLine": false,
+    "editor.mouseWheelZoom": true,
+    "editor.quickSuggestions": false,
+    // "editor.wrappingColumn": 0,
+    // "editor.wrappingIndent": "indent",
+
+    "explorer.openEditors.visible": 0,
+
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/*.{o,d}": true,
+        "**/cscope.*": true,
+        "**/.vscode": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "http.proxyStrictSSL": false,
+    "http.proxy": "http://web-proxy:8080/",
+    "https.proxyStrictSSL": false,
+    "https.proxy": "http://web-proxy:8080/"
+}
