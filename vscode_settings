@@ -12,6 +12,8 @@
     "editor.tabSize": 8,
     "editor.cursorStyle": "line",
     "editor.acceptSuggestionOnEnter": "off",
+    "editor.minimap.enabled": false,
+
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
 
