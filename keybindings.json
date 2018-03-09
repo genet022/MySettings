@@ -1,0 +1,6 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "ctrl+alt+right", "command": "workbench.action.terminal.toggleTerminal" },
+    { "key": "ctrl+alt+left", "command": "workbench.action.terminal.toggleTerminal" },
+    { "key": "ctrl+tab",       "command": "workbench.action.navigateEditorGroups" },
+]
