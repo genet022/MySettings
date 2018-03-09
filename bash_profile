@@ -12,7 +12,6 @@ if [ -f /etc/bash_completion ]; then
         . /etc/bash_completion
 else
         . /etc/bash_completion.d/git
-        . /etc/bash_completion.d/subversion
 fi
 
 if [ -f ~/.terminal_colors ]; then

@@ -1,0 +1,17 @@
+[user]
+	name = genet
+	email = joshua.s.genet@hpe.com
+
+[alias]
+        llog = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	co = checkout
+	c = commit -m 
+	br = branch
+	stat = status
+	last = log -1 HEAD
+	unstage = reset HEAD --
+	ch = diff --name-only
+	releasenotes = log --oneline --decorate --first-parent --graph -30
+	pull = pull && submodule update
+[merge]
+	tool = kdiff3
