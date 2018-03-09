@@ -9,8 +9,14 @@
     "editor.scrollBeyondLastLine": false,
     "editor.mouseWheelZoom": true,
     "editor.quickSuggestions": false,
-    // "editor.wrappingColumn": 0,
-    // "editor.wrappingIndent": "indent",
+    "editor.tabSize": 8,
+    "editor.cursorStyle": "line",
+    "editor.acceptSuggestionOnEnter": "off",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.feedback.visible": false,
 
     "explorer.openEditors.visible": 0,
 
@@ -23,9 +29,19 @@
         "**/cscope.*": true,
         "**/.vscode": true
     },
-    "files.trimTrailingWhitespace": true,
+
     "http.proxyStrictSSL": false,
     "http.proxy": "http://web-proxy:8080/",
     "https.proxyStrictSSL": false,
-    "https.proxy": "http://web-proxy:8080/"
+    "https.proxy": "http://web-proxy:8080/",
+
+    "window.zoomLevel": 0,
+    "window.menuBarVisibility": "toggle",
+    "window.restoreFullscreen": true,
+
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.experimentalRestore": true,
+    "terminal.integrated.fontFamily": "'Consolas'",
+    "terminal.explorerKind": "integrated",
 }
