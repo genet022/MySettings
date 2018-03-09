@@ -46,4 +46,5 @@
     "terminal.integrated.experimentalRestore": true,
     "terminal.integrated.fontFamily": "'Consolas'",
     "terminal.explorerKind": "integrated",
+    "workbench.activityBar.visible": false,
 }
