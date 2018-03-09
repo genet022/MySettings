@@ -52,7 +52,8 @@ export PATH
 
 alias ll='ls -l'
 alias xterm='xterm -geometry 93x31+1000+50'
-alias c='cd ../../tmas'
-alias x='cd ../../tmasx'
-alias b='cd ../archsim/ver_2'
 alias clean='./sim/scripts/simsweep.pl && ./scar -cleanup'
+
+alias i='ssh -XC ironside.ftc.rdlabs.hpecorp.net'
+alias s='ssh -XC snap.ftc.rdlabs.hpecorp.net'
+
